@@ -96,7 +96,7 @@ function AccountSettings() {
         {startupConfig?.helpAndFaqURL !== '/' && (
           <Select.SelectItem
             value=""
-            onClick={() => window.open(startupConfig?.helpAndFaqURL, '_blank')}
+            onClick={() => window.open("https://help.synorex.group/", '_blank')}
             className="select-item text-sm"
           >
             <LinkIcon aria-hidden="true" />
